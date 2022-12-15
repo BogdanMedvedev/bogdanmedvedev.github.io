@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+body {
+    font-family: Michroma, serif;
+    background: linear-gradient(90deg, #00009C 0%, #000000 100%);
+}
+
+p, .table {
+    color: aquamarine;
+}
+
+.table{
+    margin-top: 7%;
+}
+a{
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.nav-link {
+    color: rgb(168, 171, 170);
+}
+
+.navbar-nav .nav-link.active {
+    color: aquamarine;
+}
+
+.navbar-brand>img {
+    width: 45px;
+}
+
+.navbar-toggler {
+    background-color: rgb(210, 218, 215);
+}
+
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(270deg, #00009C 0%, #000000 100%);
+
+}
+
+.card {
+    background: linear-gradient(270deg, #00009C 0%, #000000 100%);
+    color: aquamarine;
+}
+
+.card a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.call-anim {
+    animation: call 1s linear 0s infinite normal forwards;
+}
+
+@keyframes call {
+    0% {
+        transform: translate(0);
+    }
+
+    10% {
+        transform: translate(-2px, -2px);
+    }
+
+    20% {
+        transform: translate(2px, -2px);
+    }
+
+    30% {
+        transform: translate(-2px, 2px);
+    }
+
+    40% {
+        transform: translate(2px, 2px);
+    }
+
+    50% {
+        transform: translate(-2px, -2px);
+    }
+
+    60% {
+        transform: translate(2px, -2px);
+    }
+
+    70% {
+        transform: translate(-2px, 2px);
+    }
+
+    80% {
+        transform: translate(-2px, -2px);
+    }
+
+    90% {
+        transform: translate(2px, -2px);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+}
+
+.slidetext,
+.footer-text {
+    color: aquamarine;
+    margin: auto auto;
+}
+
+@media(max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+footer, .btn-outline-primary{
+    background: linear-gradient(270deg, #00009C 0%, #000000 100%);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-text2{
+        color: aquamarine;
+        z-index: 1;
+        margin-top: 10%;
+    animation: text2 2s ease 0s 1 normal forwards;
+}
+
+
+@keyframes text2 {
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.right-side{
+    animation: rightside 1s ease 0s 1 normal forwards;
+}
+
+@keyframes rightside {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
